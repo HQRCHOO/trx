@@ -5,15 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:TRX
 X-WR-CALDESC:Pokémon GO events and card releases
 BEGIN:VEVENT
-UID:pogo-gigantamax-cinderace-max-battle-day-2026@trackmaster
-DTSTART:20261003T140000
-DTEND:20261003T170000
-SUMMARY:Gigantamax Cinderace Max Battle Day
-DESCRIPTION:https://leekduck.com/events/gigantamax-cinderace-max-battle-da
- y-2026/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:pogo-harvest-festival-2026@trackmaster
 DTSTART:20260929T100000
 DTEND:20261005T200000
