@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   keepalive:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # pinned in v3.64; ubuntu-latest becomes Ubuntu 26 on Oct 19, 2026
     steps:
       - uses: actions/checkout@v6
       - run: |

@@ -11,7 +11,7 @@ concurrency:
 
 jobs:
   daily:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # pinned in v3.64; ubuntu-latest becomes Ubuntu 26 on Oct 19, 2026
     timeout-minutes: 6
     steps:
       - uses: actions/checkout@v6
