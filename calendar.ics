@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:TRX
 X-WR-CALDESC:Pokémon GO events and card releases
 BEGIN:VEVENT
-UID:pogo-harvest-festival-2026@trackmaster
+UID:pogo-harvest-festival-2026@trx
 DTSTART:20260929T100000
 DTEND:20261005T200000
 SUMMARY:Harvest Festival 2026: Applin Picking
@@ -13,7 +13,7 @@ DESCRIPTION:https://leekduck.com/events/harvest-festival-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-harvest-festival-taken-over-2026@trackmaster
+UID:pogo-harvest-festival-taken-over-2026@trx
 DTSTART:20261002T000000
 DTEND:20261005T200000
 SUMMARY:Harvest Festival: Taken Over
@@ -21,7 +21,7 @@ DESCRIPTION:https://leekduck.com/events/harvest-festival-taken-over-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-go-pass-september-2026@trackmaster
+UID:pogo-go-pass-september-2026@trx
 DTSTART:20260908T100000
 DTEND:20261006T100000
 SUMMARY:GO Pass: September
@@ -29,7 +29,7 @@ DESCRIPTION:https://leekduck.com/events/go-pass-september-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-october-communityday2026@trackmaster
+UID:pogo-october-communityday2026@trx
 DTSTART:20261010T140000
 DTEND:20261010T170000
 SUMMARY:Zorua Community Day
@@ -37,7 +37,7 @@ DESCRIPTION:https://leekduck.com/events/october-communityday2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-world-space-week-2026@trackmaster
+UID:pogo-world-space-week-2026@trx
 DTSTART:20261004T000000
 DTEND:20261010T235900
 SUMMARY:World Space Week 2026
@@ -45,7 +45,7 @@ DESCRIPTION:https://leekduck.com/events/world-space-week-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-sandile-hatch-day-2026@trackmaster
+UID:pogo-sandile-hatch-day-2026@trx
 DTSTART:20261017T110000
 DTEND:20261017T170000
 SUMMARY:Sandile Hatch Day
@@ -53,7 +53,7 @@ DESCRIPTION:https://leekduck.com/events/sandile-hatch-day-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-fall-marathon-buddy-trek-2026@trackmaster
+UID:pogo-fall-marathon-buddy-trek-2026@trx
 DTSTART:20261013T100000
 DTEND:20261019T200000
 SUMMARY:Fall Marathon: Buddy Trek
@@ -61,7 +61,7 @@ DESCRIPTION:https://leekduck.com/events/fall-marathon-buddy-trek-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-pokemon-tcg-30th-celebration@trackmaster
+UID:pogo-pokemon-tcg-30th-celebration@trx
 DTSTART:20260927T100000
 DTEND:20261020T220000
 SUMMARY:Pokémon TCG: 30th Celebration
@@ -69,7 +69,7 @@ DESCRIPTION:https://leekduck.com/events/pokemon-tcg-30th-celebration/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-dynamax-uxie-mesprit-azelf-max-battle-day-2026@trackmaster
+UID:pogo-dynamax-uxie-mesprit-azelf-max-battle-day-2026@trx
 DTSTART:20261024T140000
 DTEND:20261024T170000
 SUMMARY:Dynamax Uxie\, Mesprit\, and Azelf Max Battle Day
@@ -78,7 +78,7 @@ DESCRIPTION:https://leekduck.com/events/dynamax-uxie-mesprit-azelf-max-bat
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-minior-showers-orionids-2026@trackmaster
+UID:pogo-minior-showers-orionids-2026@trx
 DTSTART:20261019T170000
 DTEND:20261024T235900
 SUMMARY:Minior Showers: Orionids 2026
@@ -86,7 +86,7 @@ DESCRIPTION:https://leekduck.com/events/minior-showers-orionids-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-super-mega-raid-day-october-2026@trackmaster
+UID:pogo-super-mega-raid-day-october-2026@trx
 DTSTART:20261031T140000
 DTEND:20261031T170000
 SUMMARY:Super Mega Raid Day
@@ -94,7 +94,7 @@ DESCRIPTION:https://leekduck.com/events/super-mega-raid-day-october-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-halloween-2026-part-1@trackmaster
+UID:pogo-halloween-2026-part-1@trx
 DTSTART:20261027T100000
 DTEND:20261031T200000
 SUMMARY:Halloween 2026 Part I
@@ -102,7 +102,7 @@ DESCRIPTION:https://leekduck.com/events/halloween-2026-part-1/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-go-pass-october-2026@trackmaster
+UID:pogo-go-pass-october-2026@trx
 DTSTART:20261006T100000
 DTEND:20261103T100000
 SUMMARY:GO Pass: October
@@ -110,7 +110,7 @@ DESCRIPTION:https://leekduck.com/events/go-pass-october-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-halloween-2026-part-2@trackmaster
+UID:pogo-halloween-2026-part-2@trx
 DTSTART:20261101T100000
 DTEND:20261105T200000
 SUMMARY:Halloween 2026 Part II
@@ -118,7 +118,7 @@ DESCRIPTION:https://leekduck.com/events/halloween-2026-part-2/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-pokemon-go-wild-area-2026-sendai-japan@trackmaster
+UID:pogo-pokemon-go-wild-area-2026-sendai-japan@trx
 DTSTART:20261106T010000Z
 DTEND:20261108T090000Z
 SUMMARY:Pokémon GO Wild Area 2026: Sendai • Tohoku
@@ -127,7 +127,7 @@ DESCRIPTION:https://leekduck.com/events/pokemon-go-wild-area-2026-sendai-j
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-pokemon-go-wild-area-2026-mexico-city@trackmaster
+UID:pogo-pokemon-go-wild-area-2026-mexico-city@trx
 DTSTART:20261106T160000Z
 DTEND:20261109T000000Z
 SUMMARY:Pokémon GO Wild Area 2026: Mexico City
@@ -136,7 +136,7 @@ DESCRIPTION:https://leekduck.com/events/pokemon-go-wild-area-2026-mexico-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-pokemon-go-wild-area-2026-global@trackmaster
+UID:pogo-pokemon-go-wild-area-2026-global@trx
 DTSTART:20261114T100000
 DTEND:20261115T180000
 SUMMARY:Pokémon GO Wild Area 2026: Global
@@ -144,7 +144,7 @@ DESCRIPTION:https://leekduck.com/events/pokemon-go-wild-area-2026-global/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-minior-showers-leonids-2026@trackmaster
+UID:pogo-minior-showers-leonids-2026@trx
 DTSTART:20261114T170000
 DTEND:20261119T235900
 SUMMARY:Minior Showers: Leonids 2026
@@ -152,7 +152,7 @@ DESCRIPTION:https://leekduck.com/events/minior-showers-leonids-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-november-communityday2026@trackmaster
+UID:pogo-november-communityday2026@trx
 DTSTART:20261121T140000
 DTEND:20261121T170000
 SUMMARY:November Community Day
@@ -160,7 +160,7 @@ DESCRIPTION:https://leekduck.com/events/november-communityday2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-super-mega-raid-day-november-2026@trackmaster
+UID:pogo-super-mega-raid-day-november-2026@trx
 DTSTART:20261128T140000
 DTEND:20261128T170000
 SUMMARY:Super Mega Raid Day
@@ -168,7 +168,7 @@ DESCRIPTION:https://leekduck.com/events/super-mega-raid-day-november-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-season-24-twilight-trails@trackmaster
+UID:pogo-season-24-twilight-trails@trx
 DTSTART:20260908T100000
 DTEND:20261201T100000
 SUMMARY:Twilight Trails
@@ -176,7 +176,7 @@ DESCRIPTION:https://leekduck.com/events/season-24-twilight-trails/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-pokemon-x-adidas-2026@trackmaster
+UID:pogo-pokemon-x-adidas-2026@trx
 DTSTART:20260925T100000
 DTEND:20270115T200000
 SUMMARY:adidas × Pokémon Timed Research
@@ -184,263 +184,262 @@ DESCRIPTION:https://leekduck.com/events/pokemon-x-adidas-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tcg_releases-delta-reign@trackmaster
+UID:tcg_releases-delta-reign@trx
 DTSTART;VALUE=DATE:20261106
 SUMMARY:Pokémon TCG: Mega Evolution: Delta Reign
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tcg_releases-ascended-heroes@trackmaster
+UID:tcg_releases-ascended-heroes@trx
 DTSTART;VALUE=DATE:20260130
 SUMMARY:Pokémon TCG: Mega Evolution: Ascended Heroes
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tcg_releases-30th-celebration@trackmaster
+UID:tcg_releases-30th-celebration@trx
 DTSTART;VALUE=DATE:20260916
 SUMMARY:Pokémon TCG: 30th Celebration (Wave 1)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tcg_releases-30th-celebration-wave-2@trackmaster
+UID:tcg_releases-30th-celebration-wave-2@trx
 DTSTART;VALUE=DATE:20261002
 SUMMARY:Pokémon TCG: 30th Celebration (Wave 2) (date unconfirmed)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tcg_releases-30th-celebration-upc@trackmaster
+UID:tcg_releases-30th-celebration-upc@trx
 DTSTART;VALUE=DATE:20261106
 SUMMARY:Pokémon TCG: 30th Celebration Ultra-Premium Collections (Wave 3) 
  (date unconfirmed)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tcg_releases-set-sv8@trackmaster
-DTSTART;VALUE=DATE:20241108
-SUMMARY:Pokémon TCG: Surging Sparks
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tcg_releases-set-sv8pt5@trackmaster
-DTSTART;VALUE=DATE:20250117
-SUMMARY:Pokémon TCG: Prismatic Evolutions
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tcg_releases-set-sv9@trackmaster
-DTSTART;VALUE=DATE:20250328
-SUMMARY:Pokémon TCG: Journey Together
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tcg_releases-set-sv10@trackmaster
-DTSTART;VALUE=DATE:20250530
-SUMMARY:Pokémon TCG: Destined Rivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tcg_releases-set-zsv10pt5@trackmaster
-DTSTART;VALUE=DATE:20250718
-SUMMARY:Pokémon TCG: Black Bolt
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tcg_releases-set-rsv10pt5@trackmaster
-DTSTART;VALUE=DATE:20250718
-SUMMARY:Pokémon TCG: White Flare
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tcg_releases-set-me1@trackmaster
-DTSTART;VALUE=DATE:20250926
-SUMMARY:Pokémon TCG: Mega Evolution
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tcg_releases-set-me2@trackmaster
-DTSTART;VALUE=DATE:20251114
-SUMMARY:Pokémon TCG: Phantasmal Flames
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tcg_releases-set-me3@trackmaster
-DTSTART;VALUE=DATE:20260327
-SUMMARY:Pokémon TCG: Perfect Order
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tcg_releases-set-me4@trackmaster
-DTSTART;VALUE=DATE:20260522
-SUMMARY:Pokémon TCG: Chaos Rising
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:tcg_releases-set-me5@trackmaster
+UID:tcg_releases-set-me5@trx
 DTSTART;VALUE=DATE:20260717
 SUMMARY:Pokémon TCG: Pitch Black
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:onepiece_releases-op18@trackmaster
+UID:tcg_releases-set-me4@trx
+DTSTART;VALUE=DATE:20260522
+SUMMARY:Pokémon TCG: Chaos Rising
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tcg_releases-set-me3@trx
+DTSTART;VALUE=DATE:20260327
+SUMMARY:Pokémon TCG: Perfect Order
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tcg_releases-set-me2@trx
+DTSTART;VALUE=DATE:20251114
+SUMMARY:Pokémon TCG: Phantasmal Flames
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tcg_releases-set-me1@trx
+DTSTART;VALUE=DATE:20250926
+SUMMARY:Pokémon TCG: Mega Evolution
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tcg_releases-set-rsv10pt5@trx
+DTSTART;VALUE=DATE:20250718
+SUMMARY:Pokémon TCG: White Flare
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tcg_releases-set-zsv10pt5@trx
+DTSTART;VALUE=DATE:20250718
+SUMMARY:Pokémon TCG: Black Bolt
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tcg_releases-set-sv10@trx
+DTSTART;VALUE=DATE:20250530
+SUMMARY:Pokémon TCG: Destined Rivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tcg_releases-set-sv9@trx
+DTSTART;VALUE=DATE:20250328
+SUMMARY:Pokémon TCG: Journey Together
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tcg_releases-set-sv8pt5@trx
+DTSTART;VALUE=DATE:20250117
+SUMMARY:Pokémon TCG: Prismatic Evolutions
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tcg_releases-set-sv8@trx
+DTSTART;VALUE=DATE:20241108
+SUMMARY:Pokémon TCG: Surging Sparks
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:onepiece_releases-op18@trx
 DTSTART;VALUE=DATE:20261120
 SUMMARY:One Piece: BOOSTER PACK -THE DOMINANCE OF GOD- [OP-18]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:onepiece_releases-gift-collection-one-piece-heroines-gc-2026@trackmast
- er
+UID:onepiece_releases-gift-collection-one-piece-heroines-gc-2026@trx
 DTSTART;VALUE=DATE:20261120
 SUMMARY:One Piece: Gift Collection -ONE PIECE Heroines- [GC-2026]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:onepiece_releases-ts03@trackmaster
+UID:onepiece_releases-ts03@trx
 DTSTART;VALUE=DATE:20261030
 SUMMARY:One Piece: Mini Case Set -Luffy/Shanks/Hancock- [TS-03]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:onepiece_releases-eb05@trackmaster
+UID:onepiece_releases-eb05@trx
 DTSTART;VALUE=DATE:20261030
 SUMMARY:One Piece: EXTRA BOOSTER -ONE PIECE HEROINES EDITION vol.2- [EB-05
  ]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dragonball_releases-fb11@trackmaster
+UID:dragonball_releases-fb11@trx
 DTSTART;VALUE=DATE:20261016
 SUMMARY:Dragon Ball: BOOSTER PACK -BRIGHTNESS OF HOPE- [FB11]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dragonball_releases-fb10@trackmaster
+UID:dragonball_releases-fb10@trx
 DTSTART;VALUE=DATE:20260612
 SUMMARY:Dragon Ball: BOOSTER PACK -CROSS FORCE- [FB10]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dragonball_releases-fb09@trackmaster
+UID:dragonball_releases-fb09@trx
 DTSTART;VALUE=DATE:20260313
 SUMMARY:Dragon Ball: BOOSTER PACK -DUAL EVOLUTION- [FB09]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dragonball_releases-sb02@trackmaster
+UID:dragonball_releases-sb02@trx
 DTSTART;VALUE=DATE:20251114
 SUMMARY:Dragon Ball: MANGA BOOSTER 02 [SB02]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dragonball_releases-fs12@trackmaster
+UID:dragonball_releases-fs12@trx
 DTSTART;VALUE=DATE:20260313
 SUMMARY:Dragon Ball: STARTER DECK EX THE BEAT OF KI [FS12]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dragonball_releases-fs11@trackmaster
+UID:dragonball_releases-fs11@trx
 DTSTART;VALUE=DATE:20260313
 SUMMARY:Dragon Ball: STARTER DECK EX THE PHASE OF EVOLUTION [FS11]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dragonball_releases-fs10@trackmaster
+UID:dragonball_releases-fs10@trx
 DTSTART;VALUE=DATE:20250613
 SUMMARY:Dragon Ball: STARTER DECK EX GIBLET [FS10]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dragonball_releases-fs09@trackmaster
+UID:dragonball_releases-fs09@trx
 DTSTART;VALUE=DATE:20250613
 SUMMARY:Dragon Ball: STARTER DECK EX SHALLOT [FS09]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dragonball_releases-fs08@trackmaster
+UID:dragonball_releases-fs08@trx
 DTSTART;VALUE=DATE:20250425
 SUMMARY:Dragon Ball: STARTER DECK -VEGETA(MINI) SUPER SAIYAN 3- [FS08]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dragonball_releases-dbs-b31@trackmaster
+UID:dragonball_releases-dbs-b31@trx
 DTSTART;VALUE=DATE:20260703
 SUMMARY:Dragon Ball: Ultra-Bout Series 04 Impact Beyond Dimensions [DBS-B3
  1]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-gd07@trackmaster
+UID:gundam_releases-gd07@trx
 DTSTART;VALUE=DATE:20270129
 SUMMARY:Gundam: Blazing Fist [GD07]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-gd06@trackmaster
+UID:gundam_releases-gd06@trx
 DTSTART;VALUE=DATE:20261030
 SUMMARY:Gundam: Stardust Trails[GD06]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-st11@trackmaster
+UID:gundam_releases-st11@trx
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Aquatic Assault [ST11]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-st12@trackmaster
+UID:gundam_releases-st12@trx
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Raging Onslaught [ST12]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-st13@trackmaster
+UID:gundam_releases-st13@trx
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Silent Barrage [ST13]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-st14@trackmaster
+UID:gundam_releases-st14@trx
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Heavy Dominion [ST14]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-evx08@trackmaster
+UID:gundam_releases-evx08@trx
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Official Damage Counter Dice - Haro - [EVX08]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-deck-case02@trackmaster
+UID:gundam_releases-deck-case02@trx
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Official Card Case Set 02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-sleeve03@trackmaster
+UID:gundam_releases-sleeve03@trx
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Official Card Sleeves 02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-playmat01@trackmaster
+UID:gundam_releases-playmat01@trx
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Official Playmat & Card Set — Mobile Suit Gundam 00 —
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-pb03@trackmaster
+UID:gundam_releases-pb03@trx
 DTSTART;VALUE=DATE:20260727
 SUMMARY:Gundam: GUNDAM CARD GAME 1st Anniversary Set
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-gd05@trackmaster
+UID:gundam_releases-gd05@trx
 DTSTART;VALUE=DATE:20260724
 SUMMARY:Gundam: Freedom Ascension [GD05]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-deck-build-box@trackmaster
+UID:gundam_releases-deck-build-box@trx
 DTSTART;VALUE=DATE:20260724
 SUMMARY:Gundam: Deck Build Box Freedom Ascension [SC01]
 TRANSP:TRANSPARENT
