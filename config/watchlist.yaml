@@ -126,6 +126,7 @@ cadence_minutes:                   # estimates; tune after week one
   bestbuy_button: 15
   walmart: 15
   stock: 15
+  pcqueue: 15                      # Pokémon Center queue watch (public posts, v3.62)
   pogo_events: 30
   discord: 30
   raids: 240

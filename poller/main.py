@@ -1,3 +1,4 @@
+import datetime as dt
 """TRX poller: fetch due sources, merge into dashboard.json, alert on changes.
 
 Usage:
@@ -43,6 +44,7 @@ SOURCES = {
     "sdrocket": ("raids", "rocket"),
     "pgoapi": ("raids", "raid_difficulty"),
     "sdmax": ("raids", "power_spots"),
+    "pcqueue": ("pcqueue", "pc_queue_posts"),
     "gamedata": ("raids", "gamedata_unused"),
     "pokemonsets": ("card_games", "tcg_releases"),
     "gcg": ("card_games", "gundam_releases"),
@@ -207,14 +209,17 @@ def run(only=None, force=False, dry=False, out=print):
             new[key] = res["items"]
         if name == "pokemonsets" and res.get("tcgdex_cache"):
             new["tcgdex_cache"] = res["tcgdex_cache"]
+        if name == "pcqueue" and res.get("ok") and res.get("pc_queue"):
+            new["pc_queue"] = res["pc_queue"]
         if name == "sdmax" and res.get("ok") and res.get("roster") is not None:
             new["max_roster"] = res["roster"]
         if name == "gamedata" and res.get("ok"):
             new["gamedata"] = {k: res.get(k) for k in ("counters", "type_top", "dex", "cpm", "rocket_teams")}
-        if name in ("gamedata", "onepiece", "pokemonsets", "sdmax") and res.get("note"):
+        if name in ("gamedata", "onepiece", "pokemonsets", "sdmax", "pcqueue") and res.get("note"):
             st["note"] = res["note"]
 
     new.pop("gamedata_unused", None)
+    new.pop("pc_queue_posts", None)
     # Card games: scraped (if it worked) + manual lists from the watchlist.
     games = cfg.get("card_games") or {}
     for name, key, gkey in (("onepiece", "onepiece_releases", "onepiece"), ("dragonball", "dragonball_releases", "dragonball")):
@@ -310,6 +315,22 @@ def run(only=None, force=False, dry=False, out=print):
     except Exception as e:
         new["icons"] = prev.get("icons") or {}
         out(f"icons: skipped ({type(e).__name__}: {str(e)[:80]})")
+    # Pokémon Center queue reported live → one @here ping per 6 hours (secondhand: "verify")
+    pq = new.get("pc_queue") or {}
+    if pq.get("live"):
+        last = pq.get("last_ping")
+        fresh = not last or (now_utc() - dt.datetime.fromisoformat(last)).total_seconds() > 6 * 3600
+        if fresh:
+            srcs = sorted({p["source"] for p in pq.get("posts") or []})
+            text = (f"{(cfg.get('notify') or {}).get('mention_on_first_hand', '')} 🟠 POKÉMON CENTER QUEUE reported live · "
+                    f"{len(pq.get('posts') or [])} post(s) in the last 45 min ({', '.join(srcs)}) · verify\nhttps://www.pokemoncenter.com/").strip()
+            if not dry and (cfg.get("notify") or {}).get("slack", True):
+                try:
+                    if alerts.slack(text):
+                        pq["last_ping"] = now_iso()
+                except Exception:
+                    pass
+            out("pcqueue: " + ("ping sent" if pq.get("last_ping") == now_iso() else ("would ping (dry run)" if dry else "ping not sent")))
     # Slack pings on stock changes (first-hand readings were double-checked by their sources)
     nt = notify.run(prev.get("stock", []), new.get("stock", []), cfg, dry=dry)
     out(f"notify: {nt['live']} in-stock change(s), {nt['gone']} back to sold out, slack {'sent' if nt['sent'] else 'not sent'}")
