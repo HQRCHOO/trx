@@ -380,21 +380,9 @@ SUMMARY:Gundam: Stardust Trails[GD06]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-st14@trackmaster
-DTSTART;VALUE=DATE:20260925
-SUMMARY:Gundam: Heavy Dominion [ST14]
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:gundam_releases-st11@trackmaster
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Aquatic Assault [ST11]
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:gundam_releases-st13@trackmaster
-DTSTART;VALUE=DATE:20260925
-SUMMARY:Gundam: Silent Barrage [ST13]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -404,15 +392,21 @@ SUMMARY:Gundam: Raging Onslaught [ST12]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-evx08@trackmaster
+UID:gundam_releases-st13@trackmaster
 DTSTART;VALUE=DATE:20260925
-SUMMARY:Gundam: Official Damage Counter Dice - Haro - [EVX08]
+SUMMARY:Gundam: Silent Barrage [ST13]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-playmat01@trackmaster
+UID:gundam_releases-st14@trackmaster
 DTSTART;VALUE=DATE:20260925
-SUMMARY:Gundam: Official Playmat & Card Set — Mobile Suit Gundam 00 —
+SUMMARY:Gundam: Heavy Dominion [ST14]
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gundam_releases-evx08@trackmaster
+DTSTART;VALUE=DATE:20260925
+SUMMARY:Gundam: Official Damage Counter Dice - Haro - [EVX08]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -425,6 +419,12 @@ BEGIN:VEVENT
 UID:gundam_releases-sleeve03@trackmaster
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Official Card Sleeves 02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gundam_releases-playmat01@trackmaster
+DTSTART;VALUE=DATE:20260925
+SUMMARY:Gundam: Official Playmat & Card Set — Mobile Suit Gundam 00 —
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
