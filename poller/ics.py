@@ -45,7 +45,7 @@ def build(d, cfg):
         if types and e.get("type") not in types or not e.get("start") or not e.get("end"):
             continue
         url = (rules.get("pogo_events") or "").replace("{id}", e.get("id", ""))
-        lines += ["BEGIN:VEVENT", f"UID:pogo-{e['id']}@trackmaster", f"DTSTART:{_dt(e['start'])}", f"DTEND:{_dt(e['end'])}",
+        lines += ["BEGIN:VEVENT", f"UID:pogo-{e['id']}@trx", f"DTSTART:{_dt(e['start'])}", f"DTEND:{_dt(e['end'])}",
                   f"SUMMARY:{_esc(e.get('name'))}", f"DESCRIPTION:{_esc(url)}", "TRANSP:TRANSPARENT", "END:VEVENT"]
     if cal.get("card_releases", True):
         for key, label, field in GAMES:
@@ -54,7 +54,7 @@ def build(d, cfg):
                 if not dd:
                     continue
                 tag = "" if r.get("confirmed", True) else " (date unconfirmed)"
-                lines += ["BEGIN:VEVENT", f"UID:{key}-{r.get('id')}@trackmaster", f"DTSTART;VALUE=DATE:{dd:%Y%m%d}",
+                lines += ["BEGIN:VEVENT", f"UID:{key}-{r.get('id')}@trx", f"DTSTART;VALUE=DATE:{dd:%Y%m%d}",
                           f"SUMMARY:{_esc(label + ': ' + str(r.get('name')) + tag)}", "TRANSP:TRANSPARENT", "END:VEVENT"]
     lines.append("END:VCALENDAR")
     return "\r\n".join(_fold(l) for l in lines) + "\r\n"

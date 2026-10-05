@@ -57,7 +57,7 @@ jobs:
         if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_alert) }}
         run: |
           if [ -f calendar.ics ]; then
-            git config user.name "trackmaster-bot"
+            git config user.name "trx-bot"
             git config user.email "actions@users.noreply.github.com"
             git add calendar.ics
             git diff --cached --quiet || (git commit -m "calendar update" && git pull --rebase --quiet && git push)
