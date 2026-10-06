@@ -138,6 +138,9 @@ TIERS = (
 )
 
 
+RANK_N = 40
+
+
 def tiers(defs, mons, pve, cpm40, names):
     def ranked(pred, no_elite):
         rows = []
@@ -168,6 +171,19 @@ def tiers(defs, mons, pve, cpm40, names):
             if len(picks) >= n:
                 break
         out[tier] = picks
+    # v3.65: a longer ranked list of regular attackers (no Megas, no Shadows) so the page can find the
+    # rider's own best Pokémon for this boss. Compact keys: n name, f/c moves, ft/ct move types, p % of top, e elite.
+    rank, seen = [], set()
+    for score, m, b in ranked(lambda m: not m["mega"] and not m["shadow"], False):
+        if m["name"] in seen:
+            continue
+        seen.add(m["name"])
+        rank.append({"n": m["name"], "f": names.get(b["fast"], b["fast"]), "c": names.get(b["charged"], b["charged"]),
+                     "ft": (pve.get(b["fast"]) or {}).get("type"), "ct": (pve.get(b["charged"]) or {}).get("type"),
+                     "p": round((score / top) ** 0.25 * 100), "e": 1 if (b["fast"] in m["elite"] or b["charged"] in m["elite"]) else 0})
+        if len(rank) >= RANK_N:
+            break
+    out["rank"] = rank
     return out
 
 
