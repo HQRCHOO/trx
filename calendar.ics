@@ -97,6 +97,14 @@ DESCRIPTION:https://leekduck.com/events/pokemon-go-wild-area-2026-mexico-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:pogo-into-the-wild-2026@trx
+DTSTART:20261109T100000
+DTEND:20261113T200000
+SUMMARY:Into the Wild
+DESCRIPTION:https://leekduck.com/events/into-the-wild-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:pogo-pokemon-go-wild-area-2026-global@trx
 DTSTART:20261114T100000
 DTEND:20261115T180000
