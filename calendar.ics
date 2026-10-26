@@ -5,32 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:TRX
 X-WR-CALDESC:Pokémon GO events and card releases
 BEGIN:VEVENT
-UID:pogo-dynamax-uxie-mesprit-azelf-max-battle-day-2026@trx
-DTSTART:20261024T140000
-DTEND:20261024T170000
-SUMMARY:Dynamax Uxie\, Mesprit\, and Azelf Max Battle Day
-DESCRIPTION:https://leekduck.com/events/dynamax-uxie-mesprit-azelf-max-bat
- tle-day-2026/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:pogo-pokemon-night-out-los-angeles-2026@trx
-DTSTART:20261025T023000Z
-DTEND:20261025T065959Z
-SUMMARY:Pokémon Night Out 2026 - Los Angeles
-DESCRIPTION:https://leekduck.com/events/pokemon-night-out-los-angeles-2026
- /
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:pogo-minior-showers-orionids-2026@trx
-DTSTART:20261019T170000
-DTEND:20261024T235900
-SUMMARY:Minior Showers: Orionids 2026
-DESCRIPTION:https://leekduck.com/events/minior-showers-orionids-2026/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:pogo-chandelure-super-mega-raid-day-2026@trx
 DTSTART:20261031T140000
 DTEND:20261031T170000
