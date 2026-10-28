@@ -88,6 +88,15 @@ DESCRIPTION:https://leekduck.com/events/minior-showers-leonids-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:pogo-eternamax-eternatus-max-battles-2026@trx
+DTSTART:20261121T110000
+DTEND:20261121T140000
+SUMMARY:Eternamax Eternatus Returns
+DESCRIPTION:https://leekduck.com/events/eternamax-eternatus-max-battles-20
+ 26/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:pogo-november-communityday2026@trx
 DTSTART:20261121T140000
 DTEND:20261121T170000
