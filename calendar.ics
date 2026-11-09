@@ -159,12 +159,6 @@ SUMMARY:Pokémon TCG: 30th Celebration Ultra-Premium Collections (Wave 3)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:tcg_releases-set-sv8@trx
-DTSTART;VALUE=DATE:20241108
-SUMMARY:Pokémon TCG: Surging Sparks
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:tcg_releases-set-sv8pt5@trx
 DTSTART;VALUE=DATE:20250117
 SUMMARY:Pokémon TCG: Prismatic Evolutions
