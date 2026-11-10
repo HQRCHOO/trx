@@ -94,11 +94,51 @@ DESCRIPTION:https://leekduck.com/events/go-pass-november-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:pogo-max-battle-day-december-2026@trx
+DTSTART:20261205T140000
+DTEND:20261205T170000
+SUMMARY:Max Battle Day
+DESCRIPTION:https://leekduck.com/events/max-battle-day-december-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pogo-december-communityday2026@trx
+DTSTART:20261212T140000
+DTEND:20261213T170000
+SUMMARY:December Community Day
+DESCRIPTION:https://leekduck.com/events/december-communityday2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:pogo-minior-showers-geminids-2026@trx
 DTSTART:20261211T170000
 DTEND:20261216T235900
 SUMMARY:Minior Showers: Geminids 2026
 DESCRIPTION:https://leekduck.com/events/minior-showers-geminids-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pogo-raid-day-december-2026@trx
+DTSTART:20261219T140000
+DTEND:20261219T170000
+SUMMARY:Raid Day
+DESCRIPTION:https://leekduck.com/events/raid-day-december-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pogo-hatch-day-december-2026@trx
+DTSTART:20261226T110000
+DTEND:20261226T170000
+SUMMARY:Hatch Day
+DESCRIPTION:https://leekduck.com/events/hatch-day-december-2026/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pogo-january-communitydayclassic2027@trx
+DTSTART:20270102T140000
+DTEND:20270102T170000
+SUMMARY:January Community Day Classic
+DESCRIPTION:https://leekduck.com/events/january-communitydayclassic2027/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
