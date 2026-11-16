@@ -5,14 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:TRX
 X-WR-CALDESC:Pokémon GO events and card releases
 BEGIN:VEVENT
-UID:pogo-pokemon-go-wild-area-2026-global@trx
-DTSTART:20261114T100000
-DTEND:20261115T180000
-SUMMARY:Pokémon GO Wild Area 2026: Global
-DESCRIPTION:https://leekduck.com/events/pokemon-go-wild-area-2026-global/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:pogo-minior-showers-leonids-2026@trx
 DTSTART:20261114T170000
 DTEND:20261119T235900
