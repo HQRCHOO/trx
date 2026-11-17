@@ -134,6 +134,14 @@ DESCRIPTION:https://leekduck.com/events/pokemon-x-adidas-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:pogo-january-communityday2027@trx
+DTSTART:20270116T140000
+DTEND:20270116T170000
+SUMMARY:January Community Day
+DESCRIPTION:https://leekduck.com/events/january-communityday2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:tcg_releases-delta-reign@trx
 DTSTART;VALUE=DATE:20261106
 SUMMARY:Pokémon TCG: Mega Evolution: Delta Reign
