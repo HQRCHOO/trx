@@ -5,23 +5,6 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:TRX
 X-WR-CALDESC:Pokémon GO events and card releases
 BEGIN:VEVENT
-UID:pogo-eternamax-eternatus-max-battles-2026@trx
-DTSTART:20261121T110000
-DTEND:20261121T140000
-SUMMARY:Eternamax Eternatus Returns
-DESCRIPTION:https://leekduck.com/events/eternamax-eternatus-max-battles-20
- 26/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:pogo-november-communityday2026@trx
-DTSTART:20261121T140000
-DTEND:20261121T170000
-SUMMARY:Pawniard Community Day
-DESCRIPTION:https://leekduck.com/events/november-communityday2026/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:pogo-dynamax-trails-2026@trx
 DTSTART:20261116T100000
 DTEND:20261123T200000
