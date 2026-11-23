@@ -386,21 +386,15 @@ SUMMARY:Gundam: Aquatic Assault [ST11]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-st12@trx
+UID:gundam_releases-st13@trx
 DTSTART;VALUE=DATE:20260925
-SUMMARY:Gundam: Raging Onslaught [ST12]
+SUMMARY:Gundam: Silent Barrage [ST13]
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:gundam_releases-evx08@trx
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Gundam: Official Damage Counter Dice - Haro - [EVX08]
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:gundam_releases-playmat01@trx
-DTSTART;VALUE=DATE:20260925
-SUMMARY:Gundam: Official Playmat & Card Set — Mobile Suit Gundam 00 —
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -416,9 +410,15 @@ SUMMARY:Gundam: Official Card Sleeves 02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:gundam_releases-st13@trx
+UID:gundam_releases-playmat01@trx
 DTSTART;VALUE=DATE:20260925
-SUMMARY:Gundam: Silent Barrage [ST13]
+SUMMARY:Gundam: Official Playmat & Card Set — Mobile Suit Gundam 00 —
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gundam_releases-st12@trx
+DTSTART;VALUE=DATE:20260925
+SUMMARY:Gundam: Raging Onslaught [ST12]
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
