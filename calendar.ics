@@ -149,6 +149,14 @@ DESCRIPTION:https://leekduck.com/events/january-communityday2027/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:pogo-max-battle-day-january-2027@trx
+DTSTART:20270123T140000
+DTEND:20270123T170000
+SUMMARY:Max Battle Day
+DESCRIPTION:https://leekduck.com/events/max-battle-day-january-2027/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:pogo-season-25-daydream-destinations@trx
 DTSTART:20261201T100000
 DTEND:20270301T100000
