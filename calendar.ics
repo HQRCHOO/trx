@@ -37,11 +37,12 @@ DESCRIPTION:https://leekduck.com/events/go-pass-november-2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pogo-max-battle-day-december-2026@trx
+UID:pogo-gigantamax-inteleon-max-battle-day-2026@trx
 DTSTART:20261205T140000
 DTEND:20261205T170000
-SUMMARY:Max Battle Day
-DESCRIPTION:https://leekduck.com/events/max-battle-day-december-2026/
+SUMMARY:Gigantamax Inteleon Max Battle Day
+DESCRIPTION:https://leekduck.com/events/gigantamax-inteleon-max-battle-day
+ -2026/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
